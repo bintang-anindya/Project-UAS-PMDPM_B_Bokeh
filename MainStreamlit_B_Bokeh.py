@@ -76,7 +76,7 @@ st.markdown("""
 # Load model
 @st.cache_resource
 def load_classification_model():
-    return load_model(r'BaseModel_MobileNet_Bokeh.h5')
+    return load_model(r'BestModel_MobileNet_Bokeh.h5')
 
 model = load_classification_model()
 class_names = ['Merah', 'Thompson', 'Concord']
