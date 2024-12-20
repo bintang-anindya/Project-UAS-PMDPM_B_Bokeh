@@ -133,7 +133,8 @@ with col1:
             col_a, col_b, col_c = st.columns([1, 2, 1])
             with col_b:
                 image = Image.open(uploaded_file)
-                st.image(image, caption=uploaded_file.name, use_column_width=True)
+                st.image(image, caption=uploaded_file.name, use_container_width=True)
+
 
 with col2:
     st.markdown("### 🎯 Kontrol Prediksi")
